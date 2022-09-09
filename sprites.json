@@ -1,0 +1,272 @@
+{
+	"textures": [
+		{
+			"image": "./images/sprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 528,
+				"h": 64
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "card1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "card2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 44,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "card3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 88,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "card4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 132,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "card5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 176,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "card6",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "chest",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 264,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "coin",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 308,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "flower",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 352,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "mushroom",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 396,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "selector",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				},
+				{
+					"filename": "star",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					},
+					"frame": {
+						"x": 484,
+						"y": 0,
+						"w": 44,
+						"h": 64
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1bbcbbcf45dd606b05ff713014f06aab:dca05836f3c45b2f073b6f728db7a52a:1eabdf11f75e3a4fe3147baf7b5be24b$"
+	}
+}

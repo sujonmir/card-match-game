@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+:root{
+    --card1: url('./images/card.png');
+    --card2: url('./images/card2.png');
+    --card3: url('./images/card3.png');
+    --card4: url('./images/card4.png');
+    --card5: url('./images/card5.png');
+    --card6: url('./images/card6.png');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111;
+    font-family: 'Silkscreen', cursive;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.gameWrapper {
+    width: 670px;
+    height: 500px;
+    background-image: url("./images/bg.png");
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.gameWrapper .timer {
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.gameWrapper .timer h2 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.countdown {
+    width: 50px;
+    display: inline-block;
+}
+
+.gameWrapper .gameBody {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(6, 1fr);
+    grid-gap: 40px;
+    padding: 40px 80px;
+}
+
+.gameWrapper .gameBody .imgWrapper {
+    text-align: center;
+    display: relative;
+}
+
+.gameWrapper .gameBody .imgWrapper .card {
+    z-index: 1;
+}
+
+.selector {
+    position: absolute;
+    margin-left: -44px;
+    z-index: 2;
+}
+
+@keyframes ani{
+    0%{
+        content: var(--card1);
+    }
+    20%{
+        content: var(--card2);
+    }
+    40%{
+        content: var(--card3);
+    }
+    60%{
+        content: var(--card4);
+    }
+    80%{
+        content: var(--card6);
+    }
+    100%{
+        content: var(--card5);
+    }
+}
+@keyframes rev{
+    0%{
+        content: var(--card5);
+    }
+    20%{
+        content: var(--card6);
+    }
+    40%{
+        content: var(--card4);
+    }
+    60%{
+        content: var(--card3);
+    }
+    80%{
+        content: var(--card2);
+    }
+    100%{
+        content: var(--card1);
+    }
+}
+
+/* Mobile resposive part*/
+@media screen and (max-width:400px) {
+    .gameWrapper {
+        width: 340px;
+        height: 255px;
+    }
+
+    .gameWrapper .gameBody {
+        grid-gap: 10px;
+        padding: 10px 30px;
+    }
+
+    .gameWrapper .gameBody .imgWrapper .card {
+        width: 28px;
+    }
+
+    .selector {
+        width: 28px;
+        margin-left: -28px;
+    }
+
+    .gameWrapper .timer {
+        padding-top: 20px;
+    }
+
+    .gameWrapper .timer h2 {
+        font-size: 28px;
+    }
+}
