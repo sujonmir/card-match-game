@@ -161,7 +161,7 @@ function gameOn(e) {
 
           collectionOfTarget = [];
           body.addEventListener('keypress', gameOn);
-        }, 800);
+        }, 500);
       }
     }
   }
